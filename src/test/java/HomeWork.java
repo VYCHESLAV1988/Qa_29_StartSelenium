@@ -26,22 +26,31 @@ public class HomeWork {
     @Test
     public void cssSelectors(){
         //by tag name
-        WebElement input = wd.findElement(By.name("email"));
-        WebElement input2 = wd.findElement(By.cssSelector("[name ='email']"));
-        WebElement name = wd.findElement(By.name("password"));
-        WebElement name2 = wd.findElement(By.cssSelector("[name ='password']"));
-        WebElement sabmit = wd.findElement(By.name("login"));
-        WebElement sabmit2 = wd.findElement(By.cssSelector("[name ='login']"));
-        WebElement registration = wd.findElement(By.name("registration"));
-        WebElement registration2 = wd.findElement(By.cssSelector("[name='registration']"));
+        WebElement form = wd.findElement(By.tagName("form"));
+        WebElement form2 = wd.findElement(By.cssSelector("form"));
+        WebElement inputEmail = wd.findElement(By.tagName("input"));
+        WebElement inputEmail2 = wd.findElement(By.cssSelector("input"));
+        WebElement button = wd.findElement(By.tagName("button"));
+        WebElement button2 = wd.findElement(By.cssSelector("button"));
+        WebElement link = wd.findElement(By.tagName("a"));
+        WebElement link2 = wd.findElement(By.cssSelector("a"));
+        WebElement email = wd.findElement(By.name("email"));
+        WebElement email2 = wd.findElement(By.cssSelector("[name='email']"));
+        WebElement password = wd.findElement(By.name("password"));
+        WebElement password2 = wd.findElement(By.cssSelector("[name='password']"));
 
 
         //by class
        WebElement container = wd.findElement(By.className("container"));
        WebElement container2 = wd.findElement(By.cssSelector(".container"));
-       //WebElement div = wd.findElement(By.className(""));
+       WebElement loginPage = wd.findElement(By.className("login_login__3EHKB"));
+       WebElement loginPage2 = wd.findElement(By.cssSelector(".login_login__3EHKB"));
+       WebElement loginForm = wd.findElement(By.className("navbar-component_nav__1X_4m"));
+       WebElement loginForm2 = wd.findElement(By.cssSelector(".navbar-component_nav__1X_4m"));
+
 
         //by id
+
 
 
         //by attribute
