@@ -25,6 +25,10 @@ public class HomeWork {
     @Test
     public void cssSelectors() {
         //by tag name
+        WebElement head = wd.findElement(By.tagName("head"));
+        WebElement head2 = wd.findElement(By.cssSelector("head"));
+        WebElement body = wd.findElement(By.tagName("body"));
+        WebElement body2 = wd.findElement(By.cssSelector("body"));
         WebElement form = wd.findElement(By.tagName("form"));
         WebElement form2 = wd.findElement(By.cssSelector("form"));
         WebElement inputEmail = wd.findElement(By.tagName("input"));
@@ -52,6 +56,14 @@ public class HomeWork {
         WebElement loginForm = wd.findElement(By.className("navbar-component_nav__1X_4m"));
         WebElement loginForm2 = wd.findElement(By.cssSelector(".navbar-component_nav__1X_4m"));
 
+        //by id
+        WebElement element3 = wd.findElement(By.id("root"));
+        WebElement element4 = wd.findElement(By.cssSelector("#root"));
+
+        //by Attributs
+        WebElement element5 = wd.findElement(By.cssSelector("[href = '/home']"));
+        WebElement element6 = wd.findElement(By.cssSelector("[placeholder = 'Email' ]"));
+        WebElement element7 = wd.findElement(By.cssSelector("[placeholder = 'Password']"));
 
     }
 
