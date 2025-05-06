@@ -43,6 +43,7 @@ public class Index {
         List<WebElement> list1 = wd.findElements(By.cssSelector("a"));
         List<WebElement> list2 = wd.findElements(By.xpath("//a"));
 
+
         //by class
         WebElement divContainer = wd.findElement(By.className("container"));
         WebElement divContainer2 = wd.findElement(By.cssSelector(".container"));
@@ -75,7 +76,7 @@ public class Index {
         //start
         WebElement inp1 = wd.findElement(By.cssSelector("[placeholder ^='Type' ]"));
         //end
-        WebElement inp2 = wd.findElement(By.cssSelector("[placeholder $= 'name']"));
+        WebElement inp2 = wd.findElement(By.cssSelector("[placeholder $='name']"));
         //contains
         WebElement inp3 = wd.findElement(By.cssSelector("[placeholder *='your' ]"));
 

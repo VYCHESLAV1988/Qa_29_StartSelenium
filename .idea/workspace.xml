@@ -58,7 +58,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/VYCHESLAV1988/Qa_29_StartSelenium.git",
-    "accountId": "3684aa2f-230a-4102-9262-7e6ad3c54c70"
+    "accountId": "6bc77344-72f6-4bd7-827a-50f327d20f55"
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
@@ -80,33 +80,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.HomeWork.cssSelectors.executor": "Run",
-    "Gradle.HomeWork.executor": "Run",
-    "Gradle.Index.cssLocator.executor": "Run",
-    "Gradle.Index.executor": "Run",
-    "Gradle.Index.tableTest.executor": "Run",
-    "Gradle.LoginTests.executor": "Run",
-    "Gradle.Qa_29_StartSelenium [test].executor": "Run",
-    "Gradle.StartSelenium.test.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/QA_29_AUTO/Qa_29_StartSelenium",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.HomeWork.cssSelectors.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeWork.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Index.cssLocator.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Index.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Index.tableTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Qa_29_StartSelenium [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StartSelenium.test.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/QA_29_AUTO/Qa_29_StartSelenium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\QA_29_AUTO\Qa_29_StartSelenium\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Index.tableTest">
+  <component name="RunManager" selected="Gradle.HomeWork">
+    <configuration name="HomeWork" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HomeWork&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="HomeWork.cssSelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -145,30 +169,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;Index&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Index.cssLocator" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;Index.cssLocator&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -227,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HomeWork" />
+        <item itemvalue="Gradle.HomeWork.cssSelectors" />
         <item itemvalue="Gradle.Index.tableTest" />
         <item itemvalue="Gradle.Index" />
         <item itemvalue="Gradle.Qa_29_StartSelenium [test]" />
-        <item itemvalue="Gradle.Index.cssLocator" />
-        <item itemvalue="Gradle.HomeWork.cssSelectors" />
       </list>
     </recent_temporary>
   </component>
