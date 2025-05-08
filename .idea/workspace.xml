@@ -55,12 +55,12 @@
     &quot;assignee&quot;: &quot;VYCHESLAV1988&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VYCHESLAV1988/Qa_29_StartSelenium.git",
-    "accountId": "6bc77344-72f6-4bd7-827a-50f327d20f55"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VYCHESLAV1988/Qa_29_StartSelenium.git&quot;,
+    &quot;accountId&quot;: &quot;6bc77344-72f6-4bd7-827a-50f327d20f55&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Index.java" root0="SKIP_INSPECTION" />

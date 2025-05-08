@@ -21,6 +21,13 @@ public class HomeWork {
     //Selector ID for found fill # - #nav
     //Selector class for found fill . - .nav
 
+    @Test
+    public void classwork(){
+        WebElement element = wd.findElement(By.cssSelector("[name = 'login']"));
+        String text = element.getText();
+        System.out.println();
+    }
+
 
     @Test
     public void cssSelectors() {
@@ -93,6 +100,8 @@ public class HomeWork {
 
         WebElement element6 = wd.findElement(By.cssSelector("[placeholder = 'Email' ]"));
         WebElement element14 = wd.findElement(By.xpath("//*[@placeholder = 'Email']"));
+
+        
 
         WebElement element7 = wd.findElement(By.cssSelector("[placeholder = 'Password']"));
         WebElement element15 = wd.findElement(By.xpath("//*[@placeholder = 'Password']"));

@@ -36,9 +36,11 @@ public class Index {
         WebElement el = wd.findElement(By.tagName("button"));
         WebElement el1 = wd.findElement(By.cssSelector("button"));
         WebElement element = wd.findElement(By.xpath("//button"));
+
         WebElement a = wd.findElement(By.tagName("a"));
         WebElement a1 = wd.findElement(By.cssSelector("a"));
         WebElement a5 = wd.findElement(By.xpath("//a"));
+
         List<WebElement> list = wd.findElements(By.tagName("a"));
         List<WebElement> list1 = wd.findElements(By.cssSelector("a"));
         List<WebElement> list2 = wd.findElements(By.xpath("//a"));
@@ -48,6 +50,7 @@ public class Index {
         WebElement divContainer = wd.findElement(By.className("container"));
         WebElement divContainer2 = wd.findElement(By.cssSelector(".container"));
         WebElement divContainer3 = wd.findElement(By.xpath("//*[@class = 'container']"));
+
         List<WebElement> nav = wd.findElements(By.className("nav-item"));
         List<WebElement> nav2 = wd.findElements(By.cssSelector(".nav-item"));
         List<WebElement> nav3 = wd.findElements(By.xpath("//*[@class = 'nav-item']"));
@@ -56,8 +59,10 @@ public class Index {
         WebElement div = wd.findElement(By.id("nav"));
         WebElement div1 = wd.findElement(By.cssSelector("#nav"));
         WebElement div2 = wd.findElement(By.xpath("//*[@id = 'nav']"));
+
         WebElement alert = wd.findElement(By.id("alert"));
         WebElement alert2 = wd.findElement(By.cssSelector("#alert"));
+
 
         //by attribute
         WebElement inputEmail = wd.findElement(By.cssSelector("[placeholder = 'Type your name']"));
@@ -72,6 +77,8 @@ public class Index {
         // By.linkText & By.partialLinkText
         WebElement a3 = wd.findElement(By.linkText("Item 1"));
         WebElement a4 = wd.findElement(By.partialLinkText("m 1"));
+
+
         WebElement inp = wd.findElement(By.cssSelector("[placeholder='Type your name']"));
         //start
         WebElement inp1 = wd.findElement(By.cssSelector("[placeholder ^='Type' ]"));
@@ -79,6 +86,7 @@ public class Index {
         WebElement inp2 = wd.findElement(By.cssSelector("[placeholder $='name']"));
         //contains
         WebElement inp3 = wd.findElement(By.cssSelector("[placeholder *='your' ]"));
+
 
     }
 
