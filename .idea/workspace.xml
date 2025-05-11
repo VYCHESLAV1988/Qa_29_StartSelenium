@@ -106,7 +106,7 @@
       <recent name="D:\QA_29_AUTO\Qa_29_StartSelenium\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HomeWork.classwork">
+  <component name="RunManager" selected="Gradle.HomeWork">
     <configuration name="HomeWork" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -229,9 +229,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HomeWork" />
         <item itemvalue="Gradle.HomeWork.classwork" />
         <item itemvalue="Gradle.HomeWork.cssSelectors" />
-        <item itemvalue="Gradle.HomeWork" />
         <item itemvalue="Gradle.Index.tableTest" />
         <item itemvalue="Gradle.Index" />
       </list>
@@ -246,16 +246,5 @@
       <updated>1745492116414</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HomeWork.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -23,11 +23,31 @@ public class HomeWork {
     //Selector ID for found fill # - #nav
     //Selector class for found fill . - .nav
 
+    //deftools Elements ===> Properties (inner text)
     @Test
     public void classwork(){
         WebElement element = wd.findElement(By.cssSelector("[name = 'login']"));
         String text = element.getText();
-        System.out.println();
+        System.out.println(text);  //command sout
+
+        WebElement form = wd.findElement(By.xpath("//form"));
+        String textForm = form.getText();
+        System.out.println("**************"); //sout
+        System.out.println(textForm); //sout
+
+
+        WebElement html = wd.findElement(By.tagName("html"));
+        String textAll = html.getText();
+        System.out.println("*******************"); //sout
+        System.out.println(textAll); //sout
+
+        WebElement br = wd.findElement(By.tagName("br"));
+        //String textbr = br.getText();      //var1
+        //System.out.println("************************"); //sout
+        //System.out.println(textbr);
+        System.out.println("*=========Var2========*"); //sout
+        System.out.println("text br ===>" + br.getText()); //sout
+
     }
 
 
@@ -134,8 +154,6 @@ public class HomeWork {
         //preceding-sibling
         List<WebElement> list5 = wd.findElements(By.xpath("//a[last()]/preceding-sibling::*"));
         WebElement h1_3 = wd.findElement(By.xpath("//a[3]/preceding-sibling::h1"));
-
-
 
 
     }
