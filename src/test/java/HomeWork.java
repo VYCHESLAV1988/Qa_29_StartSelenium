@@ -6,6 +6,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class HomeWork {
 
     WebDriver wd;
@@ -101,10 +103,40 @@ public class HomeWork {
         WebElement element6 = wd.findElement(By.cssSelector("[placeholder = 'Email' ]"));
         WebElement element14 = wd.findElement(By.xpath("//*[@placeholder = 'Email']"));
 
-        
+        WebElement element16 = wd.findElement(By.cssSelector("[placeholder ^= 'Em']"));
+        WebElement element17 = wd.findElement(By.xpath("//input[starts-with(@placeholder, 'Em')]"));
+
+        WebElement element18 = wd.findElement(By.cssSelector("[placeholder $='il']"));
+        WebElement element19 = wd.findElement(By.xpath("//input[contains(@placeholder,'il')]"));
+
+        WebElement element20 = wd.findElement(By.cssSelector("[placeholder *= 'ma']"));
+        WebElement element21 = wd.findElement(By.xpath("//input[contains(@placeholder,'ma')]"));
 
         WebElement element7 = wd.findElement(By.cssSelector("[placeholder = 'Password']"));
         WebElement element15 = wd.findElement(By.xpath("//*[@placeholder = 'Password']"));
+
+        //parent
+        WebElement el2 = wd.findElement(By.xpath("//h1/parent::*"));
+        WebElement el3 = wd.findElement(By.xpath("//h1/parent::div"));
+        WebElement el4 = wd.findElement(By.xpath("//h1/.."));
+
+        //ancestor
+        WebElement el5 = wd.findElement(By.xpath("//h1/ancestor::*")); //all
+        WebElement el6 = wd.findElement(By.xpath("//h1/ancestor::div")); //two options
+        WebElement el7 = wd.findElement(By.xpath("//h1/ancestor::div[2]")); // one options
+
+        //ancestor - or -self
+        List<WebElement> list3 = wd.findElements(By.xpath("//h1/ancestor-or-self::*"));
+
+        //following-sibling
+        List<WebElement> list4 = wd.findElements(By.xpath("//h1/following-sibling::a"));
+
+        //preceding-sibling
+        List<WebElement> list5 = wd.findElements(By.xpath("//a[last()]/preceding-sibling::*"));
+        WebElement h1_3 = wd.findElement(By.xpath("//a[3]/preceding-sibling::h1"));
+
+
+
 
     }
 
